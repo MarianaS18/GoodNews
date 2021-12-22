@@ -20,6 +20,11 @@ class NewsListTableViewController: UITableViewController {
     // MARK: - Private functions
     private func setupUI() {
         navigationController?.navigationBar.prefersLargeTitles = true
+        
+        let url = URL(string: "https://newsapi.org/v2/everything?q=tesla&from=2021-11-22&sortBy=publishedAt&apiKey=ea9b7f221b814ae6ab9400496dee035a")!
+        WebServise().getArticles(url: url) { _ in
+            
+        }
     }
     
     // MARK: - Public functions
