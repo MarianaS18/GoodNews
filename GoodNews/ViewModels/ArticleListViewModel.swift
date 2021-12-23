@@ -20,7 +20,7 @@ struct ArticleListViewModel {
 
 extension ArticleListViewModel {
     // MARK: - Public properties
-    var numberOfSection: Int {
+    var numberOfSections: Int {
         return 1
     }
     
