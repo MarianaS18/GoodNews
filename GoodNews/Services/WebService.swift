@@ -8,11 +8,6 @@
 import UIKit
 
 class WebServise {
-    // MARK: - IBOutlets
-    // MARK: - Private properties
-    // MARK: - Public properties
-    // MARK: - View functions
-    // MARK: - Private functions
     // MARK: - Public functions
     func getArticles(url: URL, completion: @escaping ([Article]?) -> ()) {
         URLSession.shared.dataTask(with: url) { data, response, error in
@@ -25,7 +20,6 @@ class WebServise {
                 if let articleList = articleList {
                     completion(articleList.articles)
                 }
-                print(articleList?.articles)
             }
         }.resume()
     }

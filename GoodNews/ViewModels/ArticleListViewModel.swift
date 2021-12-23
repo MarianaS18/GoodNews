@@ -4,13 +4,6 @@
 //
 //  Created by Mariana Steblii on 22/12/2021.
 //
-// MARK: - IBOutlets
-// MARK: - Private properties
-// MARK: - View functions
-// MARK: - Private functions
-// MARK: - @objc private functions
-// MARK: - IBActions
-
 import Foundation
 
 /// is responsible for displaying a list of news article

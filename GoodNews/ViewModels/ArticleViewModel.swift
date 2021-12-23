@@ -5,12 +5,6 @@
 //  Created by Mariana Steblii on 22/12/2021.
 //
 
-// MARK: - IBOutlets
-// MARK: - Private functions
-// MARK: - Public functions
-// MARK: - @objc private functions
-// MARK: - IBActions
-
 import Foundation
 
 /// is responsible for displaying ONE particular news article

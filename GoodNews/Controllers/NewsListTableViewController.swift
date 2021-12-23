@@ -8,11 +8,9 @@
 import UIKit
 
 class NewsListTableViewController: UITableViewController {
-    // MARK: - IBOutlets
     // MARK: - Private properties
     private var articleListVM: ArticleListViewModel!
     
-    // MARK: - Public properties
     // MARK: - View functions
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,9 +51,5 @@ class NewsListTableViewController: UITableViewController {
             }
         }
     }
-    
-    // MARK: - Public functions
-    // MARK: - @objc private functions
-    // MARK: - IBActions
 
 }
